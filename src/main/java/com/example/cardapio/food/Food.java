@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 @Table(name = "foods")
 @Entity(name = "foods")
 //@Getter                 //Gera os metodos getters dessa classe
-//@NoArgsConstructor      //Gera os contrustores dessa classe
-//@AllArgsConstructor     //Gera os contrustores dessa classe
+//@NoArgsConstructor      //Gera os contrutores dessa classe
+//@AllArgsConstructor     //Gera os contrutores dessa classe
 //@EqualsAndHashCode(of = "id")   //Indica que o id é representação unica da classe food
 public class Food {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
